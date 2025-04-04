@@ -1,0 +1,63 @@
+body {
+  margin: 0;
+  padding: 0;
+  display: flex;
+  flex-direction: column; /* Organiza os elementos em coluna */
+  height: 100vh; /* Garante que o body ocupa a altura total da viewport */
+}
+
+.menu {
+  width: 200px; /* Largura fixa para o menu */
+  background-color: #f0f0f0; /* Cor de fundo do menu */
+  padding: 25px;
+  box-sizing: border-box; /* Inclui padding na largura total */
+  display: flex;
+  flex-direction: column; /* Organiza os itens do menu em coluna */
+  position: fixed; /* Fixa o menu na posição */
+  height: 100vh;
+}
+
+.menu_logo {
+  width: 150px; /* Ajuste o tamanho do logotipo conforme necessário */
+  margin-bottom: 20px;
+  border-radius: 50%;
+  object-fit: fill;
+}
+
+.menu_lista {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.menu_lista_item {
+  text-decoration: none;
+  color: #333;
+  margin-bottom: 10px;
+  display: block;
+}
+
+.menu_curriculo {
+  text-decoration: none;
+  background-color: #007bff; /* Cor de fundo do botão */
+  color: white;
+  padding: 10px 15px;
+  border-radius: 5px;
+  text-align: center;
+  margin-top: auto; /* Empurra o botão para a parte inferior do menu */
+}
+
+.Container_Curriculo {
+  display: flex;
+  flex-grow: 1; /* Permite que o container cresça para ocupar o espaço restante */
+  margin-left: 200px; /* Largura do menu */
+  padding: 20px;
+  box-sizing: border-box;
+}
+
+.container_comentario {
+  background-color: #e0e0e0; /* Cor de fundo do container de comentários */
+  padding: 20px;
+  box-sizing: border-box;
+  width: 100%;
+}
